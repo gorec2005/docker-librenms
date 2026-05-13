@@ -3,7 +3,7 @@
 # renovate: datasource=github-releases packageName=librenms/librenms versioning=semver
 ARG LIBRENMS_VERSION="26.4.1"
 ARG ALPINE_VERSION="3.22"
-ARG SYSLOGNG_VERSION="4.8.3-r1"
+ARG SYSLOGNG_VERSION="4.10.2"
 
 FROM tianon/gosu:latest AS gosu
 
